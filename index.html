@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineReview | Avaliações de Filmes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+    <header role="banner">
+        <div class="container nav-container">
+            <h1>Cine<span>Review</span></h1>
+            <nav aria-label="Navegação Principal">
+                <ul class="nav-links">
+                    <li><a href="#lancamentos">Lançamentos</a></li>
+                    <li><a href="#criticas">Críticas Recentes</a></li>
+                    <li><a href="#faq">Dúvidas</a></li>
+                </ul>
+            </nav>
+            <div class="accessibility-controls">
+                <button id="btn-contrast" title="Modo de Alto Contraste" aria-label="Alternar Alto Contraste">🌓</button>
+                <button id="font-up" title="Aumentar Fonte" aria-label="Aumentar Tamanho da Fonte">A+</button>
+                <button id="font-down" title="Diminuir Fonte" aria-label="Diminuir Tamanho da Fonte">A-</button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero reveal" aria-label="Filmes em Destaque">
+            <div class="container">
+                <div id="carousel-container" class="carousel">
+                    </div>
+                <div class="carousel-controls">
+                    <button id="prev" aria-label="Filme anterior">❮</button>
+                    <button id="next" aria-label="Próximo filme">❯</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="lancamentos" class="reveal">
+            <div class="container">
+                <h2>Avaliações da Comunidade</h2>
+                <div id="movie-grid" class="grid-layout">
+                    </div>
+            </div>
+        </section>
+
+        <section id="faq" class="reveal">
+            <div class="container">
+                <h2>Como avaliamos?</h2>
+                <div id="faq-container" class="accordion">
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <p>&copy; 2024 CineReview. Projeto focado em acessibilidade digital.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
