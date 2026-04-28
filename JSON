@@ -1,0 +1,16 @@
+
+
+[
+  {
+    "filme": "Titanic",
+    "usuario": "Cinefilo92",
+    "nota": 5,
+    "comentario": "A reconstituição histórica combinada com o romance tornou esse filme um marco. Não envelhece nunca."
+  },
+  {
+    "filme": "Vingadores: Ultimato",
+    "usuario": "MarvelFan_BR",
+    "nota": 5,
+    "comentario": "Eu te amo três mil! Que encerramento digno para o Capitão e o Homem de Ferro."
+  }
+]
